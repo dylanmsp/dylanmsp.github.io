@@ -1,8 +1,0 @@
-html {
-	margin: 5px;
-}
-
-.top {
-	display: grid;
-	grid-template-columns: 18% 2% 80%;
-}
