@@ -1,2 +1,8 @@
-/* CSS Document */
+html {
+	margin: 20px;
+}
 
+.top {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
