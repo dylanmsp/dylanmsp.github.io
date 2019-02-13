@@ -1,8 +1,8 @@
 html {
-	margin: 20px;
+	margin: 5px;
 }
 
 .top {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 18% 2% 80%;
 }
