@@ -24,4 +24,9 @@
 	.box_head_links_spacer {
 		width: 5em;
 	}
+	
+	.box_head_search {
+		align-self: center;
+		padding-left: 2em;
+	}
 }

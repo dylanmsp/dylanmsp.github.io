@@ -1,6 +1,6 @@
 html, body {
 	margin: 0em;
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	height: 100%;	
 }
 
@@ -44,14 +44,25 @@ html {
 	text-decoration: underline;
 }
 
+.box_head_search_textbox {
+	background-color: #fcfcfc;
+	width: 15em;
+	height: 2em;
+	font-size: 0.5em;
+	background-image: url("../assets/magnifier.svg");
+	background-repeat: no-repeat;
+	padding-left: 3em;
+}
+
 .box_intro {
 	background-color: #1d3775;
 	color: #ecf5e4;
+	
 }
 
 .box_body {
 	background-color: #fcfcfc;
-	color: #4d4d4d;
+	color: #323232;
 	flex: 2;
 }
 
