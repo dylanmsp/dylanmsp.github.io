@@ -25,3 +25,8 @@ html, body {
 .box_intro, .box_foot {background-color: #1d3775; color: #ecf5e4;}
 
 .box_body {background-color: #fcfcfc; color: #323232; flex: 2;}
+
+.box_head_links_about, .box_head_links_contact, .box_head_links_articles {
+	border: 1px solid red;
+	width: 3em;
+}
