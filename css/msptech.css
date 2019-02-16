@@ -1,72 +1,27 @@
 html, body {
-	margin: 0em;
-	font-family: 'Roboto', sans-serif;
-	height: 100%;	
-}
-
-html {
 	font-size: calc(0.62em + 1vw);
-}
-
-.full_page {
+	font-family: 'Roboto', sans-serif;
 	height: 100%;
+	margin: 0em;
 }
 
-.box_head, .box_intro, .box_body, .box_foot, .box_head_logo, .box_head_links {
-	width: 100%;
-}
+.full_page {height: 100%;}
+
+.box_head, .box_intro, .box_body, .box_foot, .box_head_logo, .box_head_links {width: 100%;}
 
 .box_head {
-	padding-top: 0.5em;
-	background-color: #1d3775;
-	color: #ecf5e4;
 	display: -webkit-grid;
 	display: grid;
-}
-
-.box_head a:link {
-	color: #ecf5e4;
-	text-decoration: none;
-}
-
-.box_head a:hover {
-	color: #6dc065;
-	text-decoration: none;
-}
-
-.box_head a:visited {
-	color: #ecf5e4;
-	text-decoration: none;
-}
-
-.box_head a:active {
-	color: #ecf5e4;
-	text-decoration: underline;
-}
-
-.box_head_search_textbox {
-	background-color: #fcfcfc;
-	width: 15em;
-	height: 2em;
-	font-size: 0.5em;
-	background-image: url("../assets/magnifier.svg");
-	background-repeat: no-repeat;
-	padding-left: 3em;
-}
-
-.box_intro {
 	background-color: #1d3775;
 	color: #ecf5e4;
-	
+	padding-top: 0.5em;
 }
 
-.box_body {
-	background-color: #fcfcfc;
-	color: #323232;
-	flex: 2;
-}
+.box_head a:link {color: #ecf5e4; text-decoration: none;}
+.box_head a:visited {color: #ecf5e4; text-decoration: none;}
+.box_head a:hover {color: #6dc065; text-decoration: none;}
+.box_head a:active {color: #ecf5e4; text-decoration: underline;}
 
-.box_foot {
-	background-color: #1d3775;
-	color: #ecf5e4;
-}
+.box_intro, .box_foot {background-color: #1d3775; color: #ecf5e4;}
+
+.box_body {background-color: #fcfcfc; color: #323232; flex: 2;}

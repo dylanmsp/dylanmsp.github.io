@@ -1,4 +1,5 @@
 @media (max-width: 749px) {
+
 	.full_page {
 		display: -webkit-flex;
 		display: flex;
@@ -19,10 +20,9 @@
 		-webkit-flex-flow: row wrap;
 		flex-flow: row wrap;
 		align-self: center;
-		justify-content: space-around;	
+		justify-content: space-around;
 	}
 	
-	.box_head_links_spacer {
-		width: 0em;
-	}
+	.box_head_links_spacer {width: 0em;}
+
 }
