@@ -26,17 +26,24 @@ body {
 }
 
 .header_spacer_end {width: 1em;}
-.header_spacer_middle {width: 24em;}
+.header_spacer_middle {width: 20em;}
 .menu_link {width: 4em; align-self: center;}
 
-.advert {
+.intro {
      color: #ffffff;
      display: flex;
-	flex-flow: column nowrap;
+	flex-flow: row nowrap;
 	height: auto;
-	justify-content: space-between;
+     width: 90%;
+	justify-items: space-between;
 	align-items: center;
+     align-self: center;
+     padding-top: 5em;
+     padding-bottom: 5em;
 }
+
+.intro_words {}
+.tpm-crackle {}
 
 .main {
 	background-color: #ffffff;
