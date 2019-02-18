@@ -31,19 +31,15 @@ body {
 
 .intro {
      color: #ffffff;
-     display: flex;
-	flex-flow: row nowrap;
-	height: auto;
-     width: 90%;
-	justify-items: space-between;
-	align-items: center;
+	display: flex;
+     width: 98%;
+     justify-content: space-between;
      align-self: center;
-     padding-top: 5em;
-     padding-bottom: 5em;
 }
 
-.intro_words {}
-.tpm-crackle {}
+.intro_words {border: 1px solid red;}
+.intro_laptop {border: 1px solid blue;}
+.laptop {max-width:100%;}
 
 .main {
 	background-color: #ffffff;
