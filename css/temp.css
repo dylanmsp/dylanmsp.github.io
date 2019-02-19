@@ -1,5 +1,5 @@
 body {
-	background-color: #042C68;
+	background-color: #ffffff;
 	margin: 0em;
 	display: flex;
 	flex-flow: column nowrap;
@@ -14,6 +14,8 @@ body {
 	height: auto;
 	justify-content: space-around;
 	align-items: center;
+     border-bottom: 0.1em #e0e2e5 solid;
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .logo {width: 9em; align-self: center;}
@@ -30,43 +32,71 @@ body {
 .menu_link {width: 4em; align-self: center;}
 
 .intro {
-     color: #ffffff;
+     background-color: #f7f7f7;
+     color: #323232;
 	display: flex;
-     width: 98%;
      justify-content: space-between;
      align-self: center;
+     padding: 1em;
+     border-bottom: 0.1em #e0e2e5 solid;
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
 
-.intro_words {border: 1px solid red;}
-.intro_laptop {border: 1px solid blue;}
+.intro_words {padding: 1em; line-height: 2em;}
+.intro_laptop {}
+
 .laptop {max-width:100%;}
+
+.intro1 {font-size: 2em; font-weight: bold;}
+.intro2a {font-size: 1em;}
+.intro2b {font-size: 1em; font-weight: bold;}
+.intro3 {font-size: 0.75em;}
+
+.intro_button {
+     border: 0.2em solid #6dc065;
+     background-color: #f7f7f7;
+     color: #323232;
+     padding: 0.6em 1.2em;
+     font-size: 1em;
+     cursor: pointer;
+}
+
+.intro_button:hover {
+     background-color: #6dc065;
+}
 
 .main {
 	background-color: #ffffff;
-	color: #ecf5e4;
+     color: #323232;
 	height: 100vh;
 	padding: 2em;
      display: flex;
      flex-flow: column nowrap;
      align-items: center;
+     border-bottom: 0.1em #e0e2e5 solid;
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
 
 .box_curves {
 	border-radius: 0.75em;
 	background: #305284;
-	padding: 1em; 
+     color: #f7f7f7;
+	padding: 1em;
 	width: 98%;
 	height: 10em;
 }
 
 .footer {
-	color: #ecf5e4;
+     background-color: #f7f7f7;
+	color: #323232;
 	height: auto;
 }
 
 @media screen and (max-width: 749px) {
 	.header {flex-flow: column nowrap;}
 	.logo {width: 100%;}
+     .intro {flex-flow: column nowrap;}
+     .intro_words {text-align: center;}
 }
 
 @media screen and (max-height: 500px) {
