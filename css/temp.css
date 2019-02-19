@@ -43,7 +43,7 @@ body {
 }
 
 .intro_words {padding: 1em; line-height: 2em;}
-.intro_laptop {}
+.intro_words_small {padding: 1em; line-height: 1em;}
 
 .laptop {max-width:100%;}
 
@@ -55,8 +55,14 @@ body {
 .intro_button {
      border: 0.2em solid #6dc065;
      background-color: #f7f7f7;
+     background-image: url("../assets/intro-button.svg");
+     background-repeat: no-repeat;
+     background-position: center;
      color: #323232;
-     padding: 0.6em 1.2em;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 6em;
+     padding-right: 6em;
      font-size: 1em;
      cursor: pointer;
 }
