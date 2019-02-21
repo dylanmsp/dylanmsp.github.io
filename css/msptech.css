@@ -15,6 +15,8 @@ body a:visited {color: #3989c9; text-decoration: none;}
 body a:hover {color: #3989c9; text-decoration: none;}
 body a:active {color: #3989c9; text-decoration: none;}
 
+.mont {font-family: 'Montserrat', sans-serif; font-size: 0.85em; color: #323232;}
+
 /* HEADER */
 
 .header {
@@ -73,15 +75,13 @@ body a:active {color: #3989c9; text-decoration: none;}
 .intro_button {
      border: 0.2em solid #6dc065;
      background-color: #f7f7f7;
-     background-image: url("../assets/intro-button.svg");
-     background-repeat: no-repeat;
-     background-position: center;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1em;
      color: #323232;
      padding-top: 1em;
      padding-bottom: 1em;
-     padding-left: 6em;
-     padding-right: 6em;
-     font-size: 1em;
+     padding-left: 2.5em;
+     padding-right: 2.5em;
      cursor: pointer;
 }
 
@@ -143,14 +143,13 @@ body a:active {color: #3989c9; text-decoration: none;}
 .details_button {
      border: 0.2em solid #f7f7f7;
      background-color: #305284;
-     background-image: url("../assets/details-button.svg");
-     background-repeat: no-repeat;
-     background-position: center;
-     color: #323232;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 0.85em;
+     color: #f7f7f7;
      padding-top: 1em;
      padding-bottom: 1em;
-     padding-left: 6em;
-     padding-right: 6em;
+     padding-left: 4em;
+     padding-right: 4em;
      font-size: 1em;
      cursor: pointer;
 }
@@ -209,8 +208,20 @@ body a:active {color: #3989c9; text-decoration: none;}
      text-indent: 0em;
 }
 
-.model_blue {background-color: #3989c9;}
-.model_green {background-color: #6dc065;}
+.model_blue {
+     background-color: #3989c9;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.5em;
+     color: #323232;
+     text-align: center;
+}
+.model_green {
+     background-color: #6dc065;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.5em;
+     color: #323232;
+     text-align: center;
+}
 .model_white {background-color: #f7f7f7; color: #323232; text-align: center;}
 
 /* COMPANY */
@@ -308,6 +319,8 @@ body a:active {color: #3989c9; text-decoration: none;}
 
 @media screen and (max-width: 749px) {
 	.header {flex-flow: column nowrap;}
+     .menu_links {flex-flow: column nowrap; text-align: center;}
+     .menu_link {width: 8em;}
 	.logo {width: 100%;}
      .intro {flex-flow: column nowrap;}
      .intro_words {text-align: center;}
