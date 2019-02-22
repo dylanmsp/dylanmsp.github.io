@@ -243,7 +243,7 @@ body a:active {color: #3989c9; text-decoration: none;}
 }
 .model_white {background-color: #f7f7f7; color: #323232; text-align: center;}
 
-.curves_bottom {border: 1px red solid; text-indent: 0em; text-align: center;}
+.curves_bottom {text-indent: 0em; text-align: center;}
 
 .curves_button {
      border: 0.2em solid #f7f7f7;
