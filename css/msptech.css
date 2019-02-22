@@ -43,6 +43,26 @@ body a:active {color: #3989c9; text-decoration: none;}
 .header_spacer_middle {width: 20em;}
 .menu_link {width: 4em; align-self: center;}
 
+/* CALL */
+
+.call {
+     display: flex;
+     flex-flow: row nowrap;
+     font-size: 0.75em;
+     justify-content: center;
+     background-color: #305284;
+     color: #f7f7f7;
+     border-bottom: 0.1em #e0e2e5 solid;
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+}
+
+.call_p {margin-top: 0.2em; margin-bottom: 0.2em;}
+
+.call a:link {color: #f7f7f7; text-decoration: none;}
+.call a:visited {color: #f7f7f7; text-decoration: none;}
+.call a:hover {color: #f7f7f7; text-decoration: none;}
+.call a:active {color: #f7f7f7; text-decoration: none;}
+
 /* INTRO */
 
 .intro {
@@ -56,7 +76,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
 
-.intro_words {padding: 1em;}
+.intro_words {padding: 1em; line-height: 1em;}
 
 .intro_text_list {list-style-type: none; line-height: 1.5em; padding-left: 0em;}
 
@@ -144,17 +164,16 @@ body a:active {color: #3989c9; text-decoration: none;}
      border: 0.2em solid #f7f7f7;
      background-color: #305284;
      font-family: 'Montserrat', sans-serif;
-     font-size: 0.85em;
+     font-size: 1em;
      color: #f7f7f7;
      padding-top: 1em;
      padding-bottom: 1em;
      padding-left: 4em;
      padding-right: 4em;
-     font-size: 1em;
      cursor: pointer;
 }
 
-.details_button:hover {background-color: #305284;}
+.details_button:hover {border: 0.2em solid #6dc065; color: #6dc065;}
 
 /* DATA */
 
@@ -197,8 +216,8 @@ body a:active {color: #3989c9; text-decoration: none;}
      column-width: 50%;
      column-gap: 2em;
      text-align: justify;
-     text-indent: 1.4em;
-     line-height: 1.4em;
+     text-indent: 1.5em;
+     line-height: 1.5em;
      column-rule: 0.1em #e0e2e5 solid;
 }
 
@@ -223,6 +242,23 @@ body a:active {color: #3989c9; text-decoration: none;}
      text-align: center;
 }
 .model_white {background-color: #f7f7f7; color: #323232; text-align: center;}
+
+.curves_bottom {border: 1px red solid; text-indent: 0em; text-align: center;}
+
+.curves_button {
+     border: 0.2em solid #f7f7f7;
+     background-color: #305284;
+     font-family: 'Montserrat', sans-serif;
+     font-size: 0.85em;
+     color: #f7f7f7;
+     padding-top: 1em;
+     padding-bottom: 1em;
+     padding-left: 4em;
+     padding-right: 4em;
+     cursor: pointer;
+}
+
+.curves_button:hover {border: 0.2em solid #6dc065; color: #6dc065;}
 
 /* COMPANY */
 
@@ -319,21 +355,23 @@ body a:active {color: #3989c9; text-decoration: none;}
 
 @media screen and (max-width: 749px) {
 	.header {flex-flow: column nowrap;}
-     .menu_links {flex-flow: column nowrap; text-align: center;}
+     .menu_links {flex-flow: column nowrap; text-align: center; font-size: 1.2em;}
      .menu_link {width: 8em;}
 	.logo {width: 100%;}
+     .call {flex-flow: column wrap; text-align: center; font-size: 1em;}
      .intro {flex-flow: column nowrap;}
-     .intro_words {text-align: center;}
+     .intro_words {text-align: center; font-size: 1.4em;}
      .intro_tag {flex-flow: column wrap;}
-     .details {flex-flow: column nowrap;}
+     .details {flex-flow: column nowrap; font-size: 1.35em;}
      .details_split {flex-flow: column nowrap;}
      .details_box_left {width: 100%;}
      .details_box_right {width: 100%;}
-     .box_curves_text {column-count: 1;}
+     .box_curves_text {column-count: 1; font-size: 1.5em;}
+     .curves_bottom {}
      .company_box {flex-flow: column nowrap;}
      .company_form {flex-flow: column wrap;}
      .company_logo {height: 60%;}
-     .company_text {width: 100%;}
+     .company_text {width: 100%; font-size: 1.4em;}
      .company_info {
           width: 100%;
           text-align: center;
@@ -346,7 +384,7 @@ body a:active {color: #3989c9; text-decoration: none;}
           justify-content: space-between;
      }
      .footer_box {flex-flow: column nowrap; align-items: center;}
-     .footer_menu {width: 100%;}
+     .footer_menu {width: 100%; font-size: 1.2em;}
      .copyright {flex-flow: column nowrap; align-items: center;}
 }
 
