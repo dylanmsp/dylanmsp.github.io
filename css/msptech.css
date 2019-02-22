@@ -15,7 +15,12 @@ body a:visited {color: #3989c9; text-decoration: none;}
 body a:hover {color: #3989c9; text-decoration: none;}
 body a:active {color: #3989c9; text-decoration: none;}
 
-.mont {font-family: 'Montserrat', sans-serif; font-size: 0.85em; color: #323232;}
+.mont {font-family: 'Montserrat', sans-serif; font-size: 0.85em; font-weight: 700; color: #323232;}
+
+.mont a:link {color: #323232; text-decoration: none;}
+.mont a:visited {color: #323232; text-decoration: none;}
+.mont a:hover {color: #323232; text-decoration: none;}
+.mont a:active {color: #323232; text-decoration: none;}
 
 /* HEADER */
 
@@ -23,14 +28,14 @@ body a:active {color: #3989c9; text-decoration: none;}
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-around;
-     align-items: center;   
-     border-bottom: 0.1em #e0e2e5 solid;
-     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
+     align-items: center;
      height: auto;
 	padding-top: 0.2em;
+     border-bottom: 0.1em #e0e2e5 solid;
+     box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.1);
 }
 
-.logo {width: 10em; align-self: center;}
+.logo {width: 12em; align-self: center;}
 
 .menu_links {
 	display: flex;
@@ -48,7 +53,8 @@ body a:active {color: #3989c9; text-decoration: none;}
 .call {
      display: flex;
      flex-flow: row nowrap;
-     font-size: 0.75em;
+     font-size: 0.7em;
+     font-weight: 400;
      justify-content: center;
      background-color: #305284;
      color: #f7f7f7;
@@ -97,6 +103,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      background-color: #f7f7f7;
      font-family: 'Montserrat', sans-serif;
      font-size: 1em;
+     font-weight: 700;
      color: #323232;
      padding-top: 1em;
      padding-bottom: 1em;
@@ -165,6 +172,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      background-color: #305284;
      font-family: 'Montserrat', sans-serif;
      font-size: 1em;
+     font-weight: 700;
      color: #f7f7f7;
      padding-top: 1em;
      padding-bottom: 1em;
@@ -232,6 +240,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      background-color: #3989c9;
      font-family: 'Montserrat', sans-serif;
      font-size: 1.5em;
+     font-weight: 700;
      color: #323232;
      text-align: center;
 }
@@ -239,6 +248,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      background-color: #6dc065;
      font-family: 'Montserrat', sans-serif;
      font-size: 1.5em;
+     font-weight: 700;
      color: #323232;
      text-align: center;
 }
@@ -251,6 +261,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      background-color: #305284;
      font-family: 'Montserrat', sans-serif;
      font-size: 0.85em;
+     font-weight: 700;
      color: #f7f7f7;
      padding-top: 1em;
      padding-bottom: 1em;
