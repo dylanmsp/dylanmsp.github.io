@@ -436,6 +436,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      .details_split {flex-flow: column nowrap;}
      .details_box_left {width: 100%;}
      .details_box_right {width: 100%;}
+     .data_video {width: 200px; height: 100px;}
      .box_curves_text {column-count: 1; font-size: 1.5em;}
      .curves_bottom {}
      .company_box {flex-flow: column nowrap;}
