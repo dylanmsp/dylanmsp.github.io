@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+          <link
+                rel="stylesheet"
+                href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+                integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+                crossorigin="anonymous"
+          >
+		<link rel="stylesheet" href="css/msptech.css"/>
+		<link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon"/>		
+		<title>
+			TOTAL PROTECTION MODEL&trade; from MSP Tech Services
+			| IT Network Management and Security Software
+			| Managed Service Provider
+		</title>	
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_spacer_end"></div>
+			<a href="index.html"><img class="logo" alt="" src="assets/logo.svg"></a>
+			<div class="header_spacer_middle"></div>
+			<div class="menu_links">
+                    <p class="mont"><a href="#">ABOUT</a></p>
+                    <p class="mont"><a href="#">SERVICES</a></p>
+                    <p class="mont"><a href="#">ARTICLES</a></p>
+                    <p class="mont"><a href="#">CONTACT</a></p>
+			</div>
+			<div class="header_spacer_end"></div>
+		</header>
+          <section class="call mont">
+               <div><p class="call_p">IS YOUR NETWORK SECURE?</p></div>
+               <div><p class="call_p">&nbsp;&nbsp;&nbsp;CALL <a href="tel:703-544-9101">(703) 544-9101</a></p></div>
+          </section>
+          <section>
+               
+          </section>
+          <footer class="footer">
+			<section class="footer_box">
+                    <div class="footer_menu">
+                         <a class="footer_menu_bold" href="#">About</a>
+                         <a href="#">Meet MSP Tech Services</a>
+                         <a href="#">Our Purpose</a>
+                         <a href="#">IT For Health Care</a>
+                         <a href="#">IT For Accounting Firms</a>
+                         <a href="#">IT For Wealth Management</a>
+                         <a href="#">IT For Legal Firms</a>
+                         <a href="#">Contact Us</a>
+                    </div>
+                    <div class="footer_menu">
+                         <a class="footer_menu_bold" href="#">Services</a>
+                         <a href="#">Managed Services</a>
+                         <a href="#">IT Consulting</a>
+                         <a href="#">Email Security</a>
+                         <a href="#">Data Backup</a>
+                         <a href="#">Business Continuity</a>
+                         <a href="#">Cybersecurity</a>
+                         <a href="#">Help Desk Services</a>
+                    </div>
+               </section>
+		</footer>
+          <section class="copyright">
+               <div>
+                    <p>&copy; Copyright 2017-2019 MSP Tech Services, Inc. All rights reserved.</p>
+               </div>
+               <div>
+                    <p>Sitemap</p>
+               </div>
+               <div>
+                    <p>Privacy Policy</p>
+               </div>
+          </section>
+          <script src="scripts/msptech.js"></script>
+     </body>
+</html>

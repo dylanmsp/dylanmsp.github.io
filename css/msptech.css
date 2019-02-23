@@ -370,6 +370,49 @@ body a:active {color: #3989c9; text-decoration: none;}
      font-size: 0.7em;
 }
 
+/* CONTACT */
+
+.contact {
+     display: flex;
+     flex-flow: column nowrap;
+     padding: 2em;
+     text-align: center;
+     color: #323232;
+}
+
+.contact_email_form {
+     background-color: #f7f7f7;
+     display: flex;
+     flex-flow: column nowrap;
+     width: 50%;
+     border: 0.4em solid #3989c9;
+     align-self: center;
+     justify-content: space-around;
+     padding: 1em;
+     color: #323232;
+}
+
+.contact_email_form_input {
+     width: 50%;
+     height: 2em;
+     padding: 0.2em;
+     text-align: center;
+     align-self: center;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 100;
+     color: #323232;
+}
+
+.contact_message {
+     height: 10em;
+     padding: 1em;
+}
+
+.contact_button {
+     width: 50%;
+     align-self: center;
+}
+
 /* QUERIES */
 
 @media screen and (max-width: 749px) {
