@@ -388,8 +388,13 @@ body a:active {color: #3989c9; text-decoration: none;}
      border: 0.4em solid #3989c9;
      align-self: center;
      justify-content: space-around;
-     padding: 1em;
+     padding: 2em;
      color: #323232;
+}
+
+.contact_field {
+     display: flex;
+     flex-flow: column nowrap;
 }
 
 .contact_email_form_input {
@@ -404,8 +409,9 @@ body a:active {color: #3989c9; text-decoration: none;}
 }
 
 .contact_message {
+     width: 50%;
      height: 10em;
-     padding: 1em;
+     padding: 5em;
 }
 
 .contact_button {

@@ -41,24 +41,28 @@
                <div class="contact">
                     <div class="text1">CONTACT MSP TECH SERVICES</div>
                     <br>
-                    <form class="contact_email_form" id="contact_email_form">
-                         <div class="text2b">You can get in touch with us by using this form</div>
-                         <div class="text2">or by calling us at <a href="tel:703-544-9101">(703) 544-9101</a></div>
-                         <p id="returnmessage"></p>
-                         <label>Full Name</label>
-                         <input class="contact_email_form_input" type="text" id="name" placeholder="*** REQUIRED FIELD ***"/>
+                    <div id="form-messages"></div>
+                    <br>
+                    <form class="contact_email_form" id="ajax-contact" method="post" action="contact_form.php">
+                        <div class="contact_field">
+                            <label for="name">Name:</label>
+                            <input class="contact_email_form_input" type="text" id="name" name="name" required>
+                        </div>
                          <br>
-                         <label>Email Address</label>
-                         <input class="contact_email_form_input" type="text" id="email" placeholder="*** REQUIRED FIELD ***"/>
+                        <div class="contact_field">
+                            <label for="email">Email:</label>
+                            <input class="contact_email_form_input" type="email" id="email" name="email" required>
+                        </div>
                          <br>
-                         <label>Telephone</label>
-                         <input class="contact_email_form_input" type="text" id="contact" placeholder="*** REQUIRED FIELD ***"/>
+                        <div class="contact_field">
+                            <label for="message">Message:</label>
+                            <textarea class="contact_email_form_input contact_message" id="message" name="message" required></textarea>
+                        </div>
                          <br>
-                         <label>Message</label>
-                         <textarea  class="contact_email_form_input contact_message" id="message" placeholder="(Optional)"></textarea>
                          <br>
-                         <br>
-                         <input class="intro_button contact_button" type="button" id="submit" value="SEND MESSAGE"/>
+                        <div class="contact_field">
+                            <button class="intro_button contact_button" type="submit">SUBMIT</button>
+                        </div>
                     </form>
                </div>
           </section>
@@ -97,6 +101,7 @@
                     <p>Privacy Policy</p>
                </div>
           </section>
+          <script src="scripts/jquery-3.3.1.min.js"></script>
           <script src="scripts/msptech.js"></script>
      </body>
 </html>
