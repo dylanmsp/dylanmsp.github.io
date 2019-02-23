@@ -434,6 +434,7 @@ body a:active {color: #3989c9; text-decoration: none;}
      .intro_tag {flex-flow: column wrap;}
      .details {flex-flow: column nowrap; font-size: 1.35em;}
      .details_split {flex-flow: column nowrap;}
+     .details_box_bottom {width: inherit;}
      .details_box_left {width: 100%;}
      .details_box_right {width: 100%;}
      .data_video {width: 200px; height: 100px;}
